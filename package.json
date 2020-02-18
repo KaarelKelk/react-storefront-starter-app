@@ -62,7 +62,7 @@
     "rewire": "^4.0.1",
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-clear-require-cache-plugin": "^0.0.3",
-    "xdn": "0.0.6"
+    "xdn": "0.0.7-alpha.1"
   },
   "lint-staged": {
     "*.js": [
