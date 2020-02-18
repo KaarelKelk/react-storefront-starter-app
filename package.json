@@ -44,8 +44,8 @@
     "react-dom": "^16.12.0",
     "react-storefront": "^7.2.1",
     "react-visibility-sensor": "^5.1.1",
-    "xdn-next": "^0.5.1",
-    "xdn-router": "^0.5.1"
+    "xdn-next": "^0.5.3-HEAD.0",
+    "xdn-router": "^0.5.3-HEAD.0"
   },
   "devDependencies": {
     "@babel/helper-function-name": "^7.8.3",
