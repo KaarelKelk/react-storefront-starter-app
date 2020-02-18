@@ -19,7 +19,7 @@ jobs:
           registry-url: https://npm-proxy.fury.io/moovweb/
       - run: npm install
       - run: cat node_modules/react-storefront/package.json|grep 'version'
-      - run: npm run deploy --apiKey=$XDN_DEPLOY_TOKEN
+      - run: npm run deploy -- --apiKey=$XDN_DEPLOY_TOKEN
         env:
           CI: true
           XDN_DEPLOY_TOKEN: ${{secrets.XDN_DEPLOY_TOKEN}}
