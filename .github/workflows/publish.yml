@@ -22,3 +22,4 @@ jobs:
       - run: npm run deploy
         env:
           CI: true
+          XDN_DEPLOY_TOKEN: "2rP5zWZLd1F7N7EWXPV2sjqt" 
